@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-DisplayBookShelves" class="navigator-link">
+              <span class="suite-name border-failed">DisplayBookShelves</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-DisplayBookShelves" class="navigator-link ">
+                    <span>C:\Users\HP\eclipse-workspace\DisplayBookShelves\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-DisplayBookShelves" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-DisplayBookShelves" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-DisplayBookShelves" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-DisplayBookShelves" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-DisplayBookShelves" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-DisplayBookShelves" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">29 methods, 8 failed,  14 skipped,  7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-DisplayBookShelves" class="hide-methods failed suite-DisplayBookShelves"> (hide)</a> <!-- hide-methods failed suite-DisplayBookShelves -->
+                      <a href="#" panel-name="suite-DisplayBookShelves" class="show-methods failed suite-DisplayBookShelves"> (show)</a> <!-- show-methods failed suite-DisplayBookShelves -->
+                    </span>
+                    <div class="method-list-content failed suite-DisplayBookShelves">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateGiftCardEntry" class="method navigator-link" hash-for-method="AmountTextBoxTest">AmountTextBoxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateGiftCardEntry" class="method navigator-link" hash-for-method="RecipientEmailTest">RecipientEmailTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateGiftCardEntry" class="method navigator-link" hash-for-method="RecipientNameTest">RecipientNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateGiftCardEntry" class="method navigator-link" hash-for-method="errorMessageTest">errorMessageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateGiftCardEntry" class="method navigator-link" hash-for-method="screenShotTest">screenShotTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateGiftCardEntry" class="method navigator-link" hash-for-method="selectCardTest">selectCardTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateGiftCardEntry" class="method navigator-link" hash-for-method="senderNameTest">senderNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateGiftCardEntry" class="method navigator-link" hash-for-method="senderNoTest">senderNoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-DisplayBookShelves -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-DisplayBookShelves" class="hide-methods skipped suite-DisplayBookShelves"> (hide)</a> <!-- hide-methods skipped suite-DisplayBookShelves -->
+                      <a href="#" panel-name="suite-DisplayBookShelves" class="show-methods skipped suite-DisplayBookShelves"> (show)</a> <!-- show-methods skipped suite-DisplayBookShelves -->
+                    </span>
+                    <div class="method-list-content skipped suite-DisplayBookShelves">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="RecommandationTest">RecommandationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="bookDetailsTest">bookDetailsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="categoryTest">categoryTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateChairDetails" class="method navigator-link" hash-for-method="chairDetailsTest">chairDetailsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="closePopUpTest">closePopUpTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateChairDetails" class="method navigator-link" hash-for-method="closePopUpTest">closePopUpTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateChairDetails" class="method navigator-link" hash-for-method="homePageTitleTest">homePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="homePageTitleTest">homePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="outOfStockTest">outOfStockTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateChairDetails" class="method navigator-link" hash-for-method="searchBoxTest">searchBoxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="searchBoxTest">searchBoxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateChairDetails" class="method navigator-link" hash-for-method="searchButtonTest">searchButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="searchButtonTest">searchButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="storageTypeTest">storageTypeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-DisplayBookShelves -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-DisplayBookShelves" class="hide-methods passed suite-DisplayBookShelves"> (hide)</a> <!-- hide-methods passed suite-DisplayBookShelves -->
+                      <a href="#" panel-name="suite-DisplayBookShelves" class="show-methods passed suite-DisplayBookShelves"> (show)</a> <!-- show-methods passed suite-DisplayBookShelves -->
+                    </span>
+                    <div class="method-list-content passed suite-DisplayBookShelves">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateSubMenu" class="method navigator-link" hash-for-method="CollectionButtonTest">CollectionButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateGiftCardEntry" class="method navigator-link" hash-for-method="GiftCardButtonTest">GiftCardButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateGiftCardEntry" class="method navigator-link" hash-for-method="closePopUpTest">closePopUpTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateSubMenu" class="method navigator-link" hash-for-method="closePopUpTest">closePopUpTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateSubMenu" class="method navigator-link" hash-for-method="homePageTitleTest">homePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateGiftCardEntry" class="method navigator-link" hash-for-method="homePageTitleTest">homePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateSubMenu" class="method navigator-link" hash-for-method="subMenuTest">subMenuTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-DisplayBookShelves -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-DisplayBookShelves" class="panel DisplayBookShelves">
+          <div class="suite-DisplayBookShelves-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ul.qa.testcases.ValidateGiftCardEntry</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AmountTextBoxTest">
+                  </a> <!-- AmountTextBoxTest -->
+                  <span class="method-name">AmountTextBoxTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-7NUDA82T&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7884a3564856c0e85f91769d6acd9e3
+*** Element info: {Using=xpath, value=//*[@id=&quot;ip_2251506436&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.ul.qa.pages.GiftCardPage.setAmount(GiftCardPage.java:82)
+	at com.ul.qa.testcases.ValidateGiftCardEntry.AmountTextBoxTest(ValidateGiftCardEntry.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RecipientEmailTest">
+                  </a> <!-- RecipientEmailTest -->
+                  <span class="method-name">RecipientEmailTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-7NUDA82T&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7884a3564856c0e85f91769d6acd9e3
+*** Element info: {Using=xpath, value=//*[@id=&quot;ip_4081352456&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.ul.qa.pages.GiftCardPage.enterRecipientEmail(GiftCardPage.java:100)
+	at com.ul.qa.testcases.ValidateGiftCardEntry.RecipientEmailTest(ValidateGiftCardEntry.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RecipientNameTest">
+                  </a> <!-- RecipientNameTest -->
+                  <span class="method-name">RecipientNameTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-7NUDA82T&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7884a3564856c0e85f91769d6acd9e3
+*** Element info: {Using=xpath, value=//*[@id=&quot;ip_4036288348&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.ul.qa.pages.GiftCardPage.enterRecipientName(GiftCardPage.java:94)
+	at com.ul.qa.testcases.ValidateGiftCardEntry.RecipientNameTest(ValidateGiftCardEntry.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="errorMessageTest">
+                  </a> <!-- errorMessageTest -->
+                  <span class="method-name">errorMessageTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-7NUDA82T&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7884a3564856c0e85f91769d6acd9e3
+*** Element info: {Using=id, value=ip_137656023}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.ul.qa.pages.GiftCardPage.displayErrorMessage(GiftCardPage.java:118)
+	at com.ul.qa.testcases.ValidateGiftCardEntry.errorMessageTest(ValidateGiftCardEntry.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="screenShotTest">
+                  </a> <!-- screenShotTest -->
+                  <span class="method-name">screenShotTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-7NUDA82T&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7884a3564856c0e85f91769d6acd9e3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com.ul.qa.pages.GiftCardPage.takeScreenShot(GiftCardPage.java:130)
+	at com.ul.qa.testcases.ValidateGiftCardEntry.screenShotTest(ValidateGiftCardEntry.java:108)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCardTest">
+                  </a> <!-- selectCardTest -->
+                  <span class="method-name">selectCardTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-7NUDA82T&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7884a3564856c0e85f91769d6acd9e3
+*** Element info: {Using=xpath, value=//*[@id=&quot;app-container&quot;]/div/main/section/section[1]/ul/li[3]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.ul.qa.pages.GiftCardPage.selectCard(GiftCardPage.java:76)
+	at com.ul.qa.testcases.ValidateGiftCardEntry.selectCardTest(ValidateGiftCardEntry.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="senderNameTest">
+                  </a> <!-- senderNameTest -->
+                  <span class="method-name">senderNameTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-7NUDA82T&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7884a3564856c0e85f91769d6acd9e3
+*** Element info: {Using=xpath, value=//*[@id=&quot;ip_1082986083&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.ul.qa.pages.GiftCardPage.enterSenderName(GiftCardPage.java:106)
+	at com.ul.qa.testcases.ValidateGiftCardEntry.senderNameTest(ValidateGiftCardEntry.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="senderNoTest">
+                  </a> <!-- senderNoTest -->
+                  <span class="method-name">senderNoTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-7NUDA82T&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7884a3564856c0e85f91769d6acd9e3
+*** Element info: {Using=xpath, value=//*[@id=&quot;ip_2121573464&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.ul.qa.pages.GiftCardPage.enterSenderNo(GiftCardPage.java:112)
+	at com.ul.qa.testcases.ValidateGiftCardEntry.senderNoTest(ValidateGiftCardEntry.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DisplayBookShelves-class-failed -->
+          <div class="suite-DisplayBookShelves-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.ul.qa.testcases.ValidateChairDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chairDetailsTest">
+                  </a> <!-- chairDetailsTest -->
+                  <span class="method-name">chairDetailsTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;com.ul.qa.base.TestBase.driver&quot; is null
+	at com.ul.qa.base.TestBase.driver(TestBase.java:45)
+	at com.ul.qa.testcases.ValidateChairDetails.initialiseSetUp(ValidateChairDetails.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="closePopUpTest">
+                  </a> <!-- closePopUpTest -->
+                  <span class="method-name">closePopUpTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;com.ul.qa.base.TestBase.driver&quot; is null
+	at com.ul.qa.base.TestBase.driver(TestBase.java:45)
+	at com.ul.qa.testcases.ValidateChairDetails.initialiseSetUp(ValidateChairDetails.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageTitleTest">
+                  </a> <!-- homePageTitleTest -->
+                  <span class="method-name">homePageTitleTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;com.ul.qa.base.TestBase.driver&quot; is null
+	at com.ul.qa.base.TestBase.driver(TestBase.java:45)
+	at com.ul.qa.testcases.ValidateChairDetails.initialiseSetUp(ValidateChairDetails.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBoxTest">
+                  </a> <!-- searchBoxTest -->
+                  <span class="method-name">searchBoxTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;com.ul.qa.base.TestBase.driver&quot; is null
+	at com.ul.qa.base.TestBase.driver(TestBase.java:45)
+	at com.ul.qa.testcases.ValidateChairDetails.initialiseSetUp(ValidateChairDetails.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchButtonTest">
+                  </a> <!-- searchButtonTest -->
+                  <span class="method-name">searchButtonTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;com.ul.qa.base.TestBase.driver&quot; is null
+	at com.ul.qa.base.TestBase.driver(TestBase.java:45)
+	at com.ul.qa.testcases.ValidateChairDetails.initialiseSetUp(ValidateChairDetails.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DisplayBookShelves-class-skipped -->
+          <div class="suite-DisplayBookShelves-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.ul.qa.testcases.ValidateBookDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RecommandationTest">
+                  </a> <!-- RecommandationTest -->
+                  <span class="method-name">RecommandationTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;com.ul.qa.base.TestBase.driver&quot; is null
+	at com.ul.qa.base.TestBase.driver(TestBase.java:45)
+	at com.ul.qa.testcases.ValidateBookDetails.initialiseSetUp(ValidateBookDetails.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookDetailsTest">
+                  </a> <!-- bookDetailsTest -->
+                  <span class="method-name">bookDetailsTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;com.ul.qa.base.TestBase.driver&quot; is null
+	at com.ul.qa.base.TestBase.driver(TestBase.java:45)
+	at com.ul.qa.testcases.ValidateBookDetails.initialiseSetUp(ValidateBookDetails.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="categoryTest">
+                  </a> <!-- categoryTest -->
+                  <span class="method-name">categoryTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;com.ul.qa.base.TestBase.driver&quot; is null
+	at com.ul.qa.base.TestBase.driver(TestBase.java:45)
+	at com.ul.qa.testcases.ValidateBookDetails.initialiseSetUp(ValidateBookDetails.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="closePopUpTest">
+                  </a> <!-- closePopUpTest -->
+                  <span class="method-name">closePopUpTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;com.ul.qa.base.TestBase.driver&quot; is null
+	at com.ul.qa.base.TestBase.driver(TestBase.java:45)
+	at com.ul.qa.testcases.ValidateBookDetails.initialiseSetUp(ValidateBookDetails.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageTitleTest">
+                  </a> <!-- homePageTitleTest -->
+                  <span class="method-name">homePageTitleTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;com.ul.qa.base.TestBase.driver&quot; is null
+	at com.ul.qa.base.TestBase.driver(TestBase.java:45)
+	at com.ul.qa.testcases.ValidateBookDetails.initialiseSetUp(ValidateBookDetails.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="outOfStockTest">
+                  </a> <!-- outOfStockTest -->
+                  <span class="method-name">outOfStockTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;com.ul.qa.base.TestBase.driver&quot; is null
+	at com.ul.qa.base.TestBase.driver(TestBase.java:45)
+	at com.ul.qa.testcases.ValidateBookDetails.initialiseSetUp(ValidateBookDetails.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBoxTest">
+                  </a> <!-- searchBoxTest -->
+                  <span class="method-name">searchBoxTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;com.ul.qa.base.TestBase.driver&quot; is null
+	at com.ul.qa.base.TestBase.driver(TestBase.java:45)
+	at com.ul.qa.testcases.ValidateBookDetails.initialiseSetUp(ValidateBookDetails.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchButtonTest">
+                  </a> <!-- searchButtonTest -->
+                  <span class="method-name">searchButtonTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;com.ul.qa.base.TestBase.driver&quot; is null
+	at com.ul.qa.base.TestBase.driver(TestBase.java:45)
+	at com.ul.qa.testcases.ValidateBookDetails.initialiseSetUp(ValidateBookDetails.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storageTypeTest">
+                  </a> <!-- storageTypeTest -->
+                  <span class="method-name">storageTypeTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;com.ul.qa.base.TestBase.driver&quot; is null
+	at com.ul.qa.base.TestBase.driver(TestBase.java:45)
+	at com.ul.qa.testcases.ValidateBookDetails.initialiseSetUp(ValidateBookDetails.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DisplayBookShelves-class-skipped -->
+          <div class="suite-DisplayBookShelves-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ul.qa.testcases.ValidateSubMenu</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CollectionButtonTest">
+                  </a> <!-- CollectionButtonTest -->
+                  <span class="method-name">CollectionButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="closePopUpTest">
+                  </a> <!-- closePopUpTest -->
+                  <span class="method-name">closePopUpTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageTitleTest">
+                  </a> <!-- homePageTitleTest -->
+                  <span class="method-name">homePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subMenuTest">
+                  </a> <!-- subMenuTest -->
+                  <span class="method-name">subMenuTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DisplayBookShelves-class-passed -->
+          <div class="suite-DisplayBookShelves-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ul.qa.testcases.ValidateGiftCardEntry</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GiftCardButtonTest">
+                  </a> <!-- GiftCardButtonTest -->
+                  <span class="method-name">GiftCardButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="closePopUpTest">
+                  </a> <!-- closePopUpTest -->
+                  <span class="method-name">closePopUpTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageTitleTest">
+                  </a> <!-- homePageTitleTest -->
+                  <span class="method-name">homePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DisplayBookShelves-class-passed -->
+        </div> <!-- panel DisplayBookShelves -->
+        <div panel-name="test-xml-DisplayBookShelves" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\HP\eclipse-workspace\DisplayBookShelves\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;DisplayBookShelves&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Smoke Test&quot;/&gt;
+        &lt;include name=&quot;Regression Test&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ul.qa.testcases.ValidateBookDetails&quot;/&gt;
+      &lt;class name=&quot;com.ul.qa.testcases.ValidateChairDetails&quot;/&gt;
+      &lt;class name=&quot;com.ul.qa.testcases.ValidateSubMenu&quot;/&gt;
+      &lt;class name=&quot;com.ul.qa.testcases.ValidateGiftCardEntry&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- DisplayBookShelves --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DisplayBookShelves" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DisplayBookShelves</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DisplayBookShelves" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DisplayBookShelves</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">homePageTitleTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AmountTextBoxTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CollectionButtonTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GiftCardButtonTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">RecipientEmailTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">RecipientNameTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">RecommandationTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">bookDetailsTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">categoryTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">chairDetailsTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">closePopUpTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">errorMessageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">outOfStockTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">screenShotTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchBoxTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchButtonTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCardTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">senderNameTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">senderNoTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">storageTypeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">subMenuTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DisplayBookShelves" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DisplayBookShelves</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DisplayBookShelves');
+function tableData_DisplayBookShelves() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(29);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'GiftCardButtonTest')
+data.setCell(0, 2, 'com.ul.qa.testcases.ValidateGiftCardEntry')
+data.setCell(0, 3, 29465);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'homePageTitleTest')
+data.setCell(1, 2, 'com.ul.qa.testcases.ValidateSubMenu')
+data.setCell(1, 3, 12501);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'CollectionButtonTest')
+data.setCell(2, 2, 'com.ul.qa.testcases.ValidateSubMenu')
+data.setCell(2, 3, 11148);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'homePageTitleTest')
+data.setCell(3, 2, 'com.ul.qa.testcases.ValidateGiftCardEntry')
+data.setCell(3, 3, 8055);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'closePopUpTest')
+data.setCell(4, 2, 'com.ul.qa.testcases.ValidateSubMenu')
+data.setCell(4, 3, 4684);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'closePopUpTest')
+data.setCell(5, 2, 'com.ul.qa.testcases.ValidateGiftCardEntry')
+data.setCell(5, 3, 4538);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'subMenuTest')
+data.setCell(6, 2, 'com.ul.qa.testcases.ValidateSubMenu')
+data.setCell(6, 3, 3588);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'selectCardTest')
+data.setCell(7, 2, 'com.ul.qa.testcases.ValidateGiftCardEntry')
+data.setCell(7, 3, 176);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'AmountTextBoxTest')
+data.setCell(8, 2, 'com.ul.qa.testcases.ValidateGiftCardEntry')
+data.setCell(8, 3, 57);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'RecipientEmailTest')
+data.setCell(9, 2, 'com.ul.qa.testcases.ValidateGiftCardEntry')
+data.setCell(9, 3, 49);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'RecipientNameTest')
+data.setCell(10, 2, 'com.ul.qa.testcases.ValidateGiftCardEntry')
+data.setCell(10, 3, 45);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'senderNoTest')
+data.setCell(11, 2, 'com.ul.qa.testcases.ValidateGiftCardEntry')
+data.setCell(11, 3, 42);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'senderNameTest')
+data.setCell(12, 2, 'com.ul.qa.testcases.ValidateGiftCardEntry')
+data.setCell(12, 3, 38);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'errorMessageTest')
+data.setCell(13, 2, 'com.ul.qa.testcases.ValidateGiftCardEntry')
+data.setCell(13, 3, 35);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'screenShotTest')
+data.setCell(14, 2, 'com.ul.qa.testcases.ValidateGiftCardEntry')
+data.setCell(14, 3, 31);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'chairDetailsTest')
+data.setCell(15, 2, 'com.ul.qa.testcases.ValidateChairDetails')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'storageTypeTest')
+data.setCell(16, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'searchBoxTest')
+data.setCell(17, 2, 'com.ul.qa.testcases.ValidateChairDetails')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'closePopUpTest')
+data.setCell(18, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'searchButtonTest')
+data.setCell(19, 2, 'com.ul.qa.testcases.ValidateChairDetails')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'searchBoxTest')
+data.setCell(20, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'searchButtonTest')
+data.setCell(21, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'categoryTest')
+data.setCell(22, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'homePageTitleTest')
+data.setCell(23, 2, 'com.ul.qa.testcases.ValidateChairDetails')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'closePopUpTest')
+data.setCell(24, 2, 'com.ul.qa.testcases.ValidateChairDetails')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'homePageTitleTest')
+data.setCell(25, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'RecommandationTest')
+data.setCell(26, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'bookDetailsTest')
+data.setCell(27, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'outOfStockTest')
+data.setCell(28, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(28, 3, 0);
+window.suiteTableData['DisplayBookShelves']= { tableData: data, tableDiv: 'times-div-DisplayBookShelves'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-DisplayBookShelves">
+              </div> <!-- times-div-DisplayBookShelves -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DisplayBookShelves" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DisplayBookShelves</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">subMenuTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">
+The submenu list from 'Being at home' column:</span>
+                <span class="reporter-method-output">Study Chairs</span>
+                <span class="reporter-method-output">Study Tables</span>
+                <span class="reporter-method-output">Study Lamps</span>
+                <span class="reporter-method-output">Study Sets</span>
+                <span class="reporter-method-output">Sofa Beds</span>
+                <span class="reporter-method-output">Accent Chairs</span>
+                <span class="reporter-method-output">Loveseats</span>
+                <span class="reporter-method-output">Floor Lamps</span>
+                <span class="reporter-method-output">Day Beds</span>
+                <span class="reporter-method-output">Outdoor Tables</span>
+                <span class="reporter-method-output">Balcony Swings</span>
+                <span class="reporter-method-output">Balcony Chairs</span>
+                <span class="reporter-method-output">Ottomans</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DisplayBookShelves" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DisplayBookShelves" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ul.qa.testcases.ValidateBookDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">initialiseSetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">homePageTitleTest</span>
+                <span class="method-start">12996 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closePopUpTest</span>
+                <span class="method-start">13001 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchBoxTest</span>
+                <span class="method-start">13003 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchButtonTest</span>
+                <span class="method-start">13005 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">categoryTest</span>
+                <span class="method-start">13007 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">storageTypeTest</span>
+                <span class="method-start">13009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">outOfStockTest</span>
+                <span class="method-start">13013 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RecommandationTest</span>
+                <span class="method-start">13015 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookDetailsTest</span>
+                <span class="method-start">13018 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13020 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ul.qa.testcases.ValidateChairDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">initialiseSetUp</span>
+                <span class="method-start">13020 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">homePageTitleTest</span>
+                <span class="method-start">22497 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closePopUpTest</span>
+                <span class="method-start">22509 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchBoxTest</span>
+                <span class="method-start">22523 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchButtonTest</span>
+                <span class="method-start">22527 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chairDetailsTest</span>
+                <span class="method-start">22534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22539 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ul.qa.testcases.ValidateSubMenu</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialiseSetUp</span>
+                <span class="method-start">22540 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">homePageTitleTest</span>
+                <span class="method-start">82651 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closePopUpTest</span>
+                <span class="method-start">95155 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CollectionButtonTest</span>
+                <span class="method-start">99842 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subMenuTest</span>
+                <span class="method-start">110991 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">114580 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ul.qa.testcases.ValidateGiftCardEntry</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialiseSetUp</span>
+                <span class="method-start">119351 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">homePageTitleTest</span>
+                <span class="method-start">181730 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closePopUpTest</span>
+                <span class="method-start">189786 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GiftCardButtonTest</span>
+                <span class="method-start">194327 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectCardTest</span>
+                <span class="method-start">223796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AmountTextBoxTest</span>
+                <span class="method-start">223975 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">RecipientNameTest</span>
+                <span class="method-start">224038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">RecipientEmailTest</span>
+                <span class="method-start">224087 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">senderNameTest</span>
+                <span class="method-start">224139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">senderNoTest</span>
+                <span class="method-start">224180 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">errorMessageTest</span>
+                <span class="method-start">224224 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">screenShotTest</span>
+                <span class="method-start">224261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">224294 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

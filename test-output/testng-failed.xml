@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DisplayBookShelves]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Smoke Test"/>
+        <include name="Regression Test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.ul.qa.testcases.ValidateChairDetails">
+        <methods>
+          <include name="searchButtonTest"/>
+          <include name="chairDetailsTest"/>
+          <include name="initialiseSetUp"/>
+          <include name="homePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="searchBoxTest"/>
+          <include name="closePopUpTest"/>
+        </methods>
+      </class> <!-- com.ul.qa.testcases.ValidateChairDetails -->
+      <class name="com.ul.qa.testcases.ValidateBookDetails">
+        <methods>
+          <include name="storageTypeTest"/>
+          <include name="homePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="searchBoxTest"/>
+          <include name="initialiseSetUp"/>
+          <include name="searchButtonTest"/>
+          <include name="outOfStockTest"/>
+          <include name="categoryTest"/>
+          <include name="bookDetailsTest"/>
+          <include name="closePopUpTest"/>
+          <include name="RecommandationTest"/>
+        </methods>
+      </class> <!-- com.ul.qa.testcases.ValidateBookDetails -->
+      <class name="com.ul.qa.testcases.ValidateGiftCardEntry">
+        <methods>
+          <include name="RecipientEmailTest"/>
+          <include name="RecipientNameTest"/>
+          <include name="senderNoTest"/>
+          <include name="errorMessageTest"/>
+          <include name="senderNameTest"/>
+          <include name="tearDown"/>
+          <include name="AmountTextBoxTest"/>
+          <include name="initialiseSetUp"/>
+          <include name="screenShotTest"/>
+          <include name="selectCardTest"/>
+        </methods>
+      </class> <!-- com.ul.qa.testcases.ValidateGiftCardEntry -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [DisplayBookShelves] -->
